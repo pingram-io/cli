@@ -23,7 +23,7 @@ curl -fsSL https://raw.githubusercontent.com/pingram-io/cli/main/install.sh | ba
 Pin a version:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/pingram-io/cli/main/install.sh | bash -s 1.0.16
+curl -fsSL https://raw.githubusercontent.com/pingram-io/cli/main/install.sh | bash -s 1.0.17
 ```
 
 ### PowerShell (Windows)
@@ -35,14 +35,16 @@ irm https://raw.githubusercontent.com/pingram-io/cli/main/install.ps1 | iex
 Pin a version:
 
 ```powershell
-$env:PINGRAM_VERSION = '1.0.16'; irm https://raw.githubusercontent.com/pingram-io/cli/main/install.ps1 | iex
+$env:PINGRAM_VERSION = '1.0.17'; irm https://raw.githubusercontent.com/pingram-io/cli/main/install.ps1 | iex
 ```
 
 ### Homebrew
 
-Coming soon.
+```bash
+brew install pingram-io/cli/pingram
+```
 
-## Quick start
+Tap: [pingram-io/homebrew-cli](https://github.com/pingram-io/homebrew-cli) (binaries from this repo's releases).
 
 ```bash
 pingram login
@@ -60,14 +62,14 @@ Full command reference: [pingram.io/docs/reference/cli](https://www.pingram.io/d
 
 Standalone binaries are published on the [Releases](https://github.com/pingram-io/cli/releases) page.
 
-| Asset | Platform |
-| --- | --- |
-| `pingram-windows-x64.zip` | Windows x64 |
+| Asset                         | Platform            |
+| ----------------------------- | ------------------- |
+| `pingram-windows-x64.zip`     | Windows x64         |
 | `pingram-darwin-arm64.tar.gz` | macOS Apple Silicon |
-| `pingram-darwin-x64.tar.gz` | macOS Intel |
-| `pingram-linux-x64.tar.gz` | Linux x64 |
-| `pingram-linux-arm64.tar.gz` | Linux arm64 |
+| `pingram-darwin-x64.tar.gz`   | macOS Intel         |
+| `pingram-linux-x64.tar.gz`    | Linux x64           |
+| `pingram-linux-arm64.tar.gz`  | Linux arm64         |
 
 ## Source
 
-This repository hosts install scripts and release binaries for the Pingram CLI.
+This repository hosts install scripts and release binaries for the Pingram CLI. The Homebrew tap is in [pingram-io/homebrew-cli](https://github.com/pingram-io/homebrew-cli).
