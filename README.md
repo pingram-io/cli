@@ -23,7 +23,7 @@ curl -fsSL https://raw.githubusercontent.com/pingram-io/cli/main/install.sh | ba
 Pin a version:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/pingram-io/cli/main/install.sh | bash -s 1.0.17
+curl -fsSL https://raw.githubusercontent.com/pingram-io/cli/main/install.sh | bash -s 1.0.19
 ```
 
 ### PowerShell (Windows)
@@ -35,7 +35,7 @@ irm https://raw.githubusercontent.com/pingram-io/cli/main/install.ps1 | iex
 Pin a version:
 
 ```powershell
-$env:PINGRAM_VERSION = '1.0.17'; irm https://raw.githubusercontent.com/pingram-io/cli/main/install.ps1 | iex
+$env:PINGRAM_VERSION = '1.0.19'; irm https://raw.githubusercontent.com/pingram-io/cli/main/install.ps1 | iex
 ```
 
 ### Homebrew
